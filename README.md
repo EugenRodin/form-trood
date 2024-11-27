@@ -40,10 +40,4 @@ This project is a Single Page Application (SPA) designed for displaying and edit
    ```
 3. Open the application in your browser at `http://localhost:3000`.
 
-## Future Improvements
-- Add backend integration for persistent data storage.
-- Enhance UI/UX based on user feedback.
-- Optimize performance for large datasets.
 
----
-Developed with care to meet specified requirements and deliver an intuitive user experience.
