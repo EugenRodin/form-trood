@@ -45,4 +45,4 @@ const SetPassword = () => {
 
 }
 
-export default Registration
+export default SetPassword

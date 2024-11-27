@@ -58,6 +58,6 @@ const LoginForm = () => {
 
 export default LoginForm
     const handleSubmit = (values: { login: string; password: string }) => {
-        localStorage.setItem('user', JSON.stringify(values));
-        alert('Login data saved!');
-    };
+        localStorage.setItem('user', JSON.stringify(values))
+        alert('Login data saved!')
+    }

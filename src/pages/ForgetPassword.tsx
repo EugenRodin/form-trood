@@ -41,4 +41,4 @@ const ForgetPassword = () => {
 
 }
 
-export default Registration
+export default ForgetPassword

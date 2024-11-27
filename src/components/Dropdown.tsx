@@ -1,11 +1,11 @@
-import { useState } from 'react';
+import { useState } from 'react'
 
 const Dropdown = ({ title, children }: { title: string, children: React.ReactNode }) => {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(false)
 
     const toggleDropdown = () => {
         setIsOpen(!isOpen);
-    };
+    }
 
     return (
         <div className="dropdown">
@@ -15,7 +15,7 @@ const Dropdown = ({ title, children }: { title: string, children: React.ReactNod
             </div>
             {isOpen && <div className="dropdown-content">{children}</div>}
         </div>
-    );
-};
+    )
+}
 
-export default Dropdown;
+export default Dropdown
