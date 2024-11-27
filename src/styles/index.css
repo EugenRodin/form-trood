@@ -500,6 +500,30 @@ input {
     display: flex;
     flex-direction: column;
   }
+
+  .dropdown {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .dropdown-header {
+    width: 300px;
+  }
+
+  .dashboard-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dshboard-content-ablock {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dashboard-create, .structure-create, .task-add {
+    width: 250px;
+    height: 100px;
+  }
 }
 
 
@@ -527,6 +551,30 @@ input {
     width: 2.25rem;
     height: 2.25rem;
   }
+
+  .dropdown {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .dropdown-header {
+    width: 300px;
+  }
+
+  .dashboard-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dshboard-content-ablock {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dashboard-create, .structure-create, .task-add {
+    width: 350px;
+    height: 200px;
+  }
 }
 
 /* Стили для экранов от 768px до 1024px */
@@ -553,7 +601,21 @@ input {
     height: 2.5rem;
   }
 
+  .dropdown {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .dropdown-header {
+    width: 300px;
+  }
+
   .dashboard-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dshboard-content-ablock {
     display: flex;
     flex-direction: column;
   }
