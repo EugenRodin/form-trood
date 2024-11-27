@@ -1,7 +1,7 @@
 import { ErrorMessage, Field, Form, Formik } from 'formik'
 import * as Yup from 'yup'
 
-const Registration = () => {
+const ForgetPassword = () => {
     const validationScheme = Yup.object({
         login: Yup.string()
             .required('Email is required')
