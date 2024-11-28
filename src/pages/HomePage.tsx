@@ -2,9 +2,9 @@ import { Link } from 'react-router-dom'
 
 const HomePage = () => {
     return (
-        <div>
+        <div className='home'>
             <h1>Welcome to the App</h1>
-            <ul>
+            <ul className='home__list'>
                 <li><Link to="login">Login</Link></li>
                 <li><Link to="/register">Authorization</Link></li>
                 <li><Link to="/forgot-password">Forgot Password</Link></li>

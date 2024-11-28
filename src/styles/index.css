@@ -9,6 +9,19 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.home__list {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
 .profile-container {
   display: flex;
   justify-content: space-between;
@@ -507,7 +520,7 @@ input {
   }
 
   .dropdown-header {
-    width: 300px;
+    width: 200px;
   }
 
   .dashboard-content {
@@ -555,10 +568,12 @@ input {
   .dropdown {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
+    
   }
 
   .dropdown-header {
-    width: 300px;
+    width: 250px;
   }
 
   .dashboard-content {
